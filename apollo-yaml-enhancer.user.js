@@ -4,7 +4,8 @@
 // @version      3.8.0
 // @description  Apollo配置中心 - 点击修改配置按钮时启动全屏YAML编辑器，发布时提供diff高亮显示
 // @author       xzthemeofsss
-// @match        http*://*/*config.html*
+// @include        https://apollo.dev.*.com/*
+// @include        https://apollo.*.com/*
 // @grant        none
 // @run-at       document-end
 // ==/UserScript==
